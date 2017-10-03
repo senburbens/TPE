@@ -1,0 +1,271 @@
+nohup: ignoring input
+2017-05-12 02:10:06.667+0000 INFO  No SSL certificate found, generating a self-signed certificate..
+2017-05-12 02:10:07.848+0000 INFO  Starting...
+2017-05-12 02:10:09.995+0000 INFO  Bolt enabled on localhost:7687.
+2017-05-12 02:10:21.969+0000 INFO  Started.
+2017-05-12 02:10:26.576+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-05-21 12:53:28.845+0000 INFO  Starting...
+2017-05-21 12:53:34.708+0000 INFO  Bolt enabled on localhost:7687.
+2017-05-21 12:53:48.508+0000 INFO  Started.
+2017-05-21 12:53:52.374+0000 INFO  Remote interface available at http://localhost:7474/
+2017-05-21 15:03:52.536+0000 INFO  Neo4j Server shutdown initiated by request
+2017-05-21 15:04:01.195+0000 INFO  Stopping...
+2017-05-21 15:04:13.857+0000 INFO  Stopped.
+nohup: ignoring input
+2017-05-24 18:24:17.534+0000 INFO  Starting...
+2017-05-24 18:24:20.744+0000 INFO  Bolt enabled on localhost:7687.
+2017-05-24 18:24:31.814+0000 INFO  Started.
+2017-05-24 18:24:34.987+0000 INFO  Remote interface available at http://localhost:7474/
+2017-05-24 19:47:20.901+0000 INFO  Neo4j Server shutdown initiated by request
+2017-05-24 19:47:42.254+0000 INFO  Stopping...
+2017-05-24 19:47:51.663+0000 INFO  Stopped.
+nohup: ignoring input
+2017-05-25 12:35:14.738+0000 INFO  Starting...
+2017-05-25 12:35:17.774+0000 INFO  Bolt enabled on localhost:7687.
+2017-05-25 12:35:30.487+0000 INFO  Started.
+2017-05-25 12:35:33.530+0000 INFO  Remote interface available at http://localhost:7474/
+2017-05-25 16:38:14.426+0000 INFO  Neo4j Server shutdown initiated by request
+2017-05-25 16:38:22.020+0000 INFO  Stopping...
+2017-05-25 16:38:28.195+0000 INFO  Stopped.
+nohup: ignoring input
+2017-05-25 17:49:50.163+0000 INFO  Starting...
+2017-05-25 17:50:13.055+0000 INFO  Bolt enabled on localhost:7687.
+2017-05-25 17:51:11.194+0000 INFO  Started.
+2017-05-25 17:51:19.554+0000 INFO  Remote interface available at http://localhost:7474/
+2017-05-26 06:23:57.083+0000 INFO  Neo4j Server shutdown initiated by request
+2017-05-26 06:24:04.019+0000 INFO  Stopping...
+2017-05-26 06:24:15.979+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-01 02:20:52.084+0000 INFO  Starting...
+2017-06-01 02:20:55.326+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-01 02:21:16.755+0000 INFO  Started.
+2017-06-01 02:21:23.755+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-01 02:44:17.652+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-01 02:44:17.798+0000 INFO  Stopping...
+2017-06-01 02:44:20.930+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-03 14:29:22.113+0000 INFO  Starting...
+2017-06-03 14:29:28.586+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-03 14:29:44.154+0000 INFO  Started.
+2017-06-03 14:29:48.325+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-04 04:53:05.906+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-04 04:53:16.023+0000 INFO  Stopping...
+2017-06-04 04:53:25.022+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-10 15:30:35.908+0000 INFO  Starting...
+2017-06-10 15:30:38.868+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-10 15:30:54.427+0000 INFO  Started.
+2017-06-10 15:30:59.215+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-10 17:48:04.486+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-10 17:48:04.683+0000 INFO  Stopping...
+2017-06-10 17:48:06.883+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-10 17:48:25.151+0000 INFO  Starting...
+2017-06-10 17:48:32.698+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-10 17:48:56.323+0000 INFO  Started.
+2017-06-10 17:49:00.743+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-10 19:19:06.841+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-10 19:19:07.785+0000 INFO  Stopping...
+2017-06-10 19:19:12.255+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-10 21:11:24.640+0000 INFO  Starting...
+2017-06-10 21:11:32.185+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-10 21:12:05.029+0000 INFO  Started.
+2017-06-10 21:12:10.839+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-06-11 19:05:38.525+0000 INFO  Starting...
+2017-06-11 19:05:48.214+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-11 19:06:17.497+0000 INFO  Started.
+2017-06-11 19:06:26.521+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-06-12 11:45:24.160+0000 INFO  Starting...
+2017-06-12 11:45:33.968+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-12 11:46:07.851+0000 INFO  Started.
+2017-06-12 11:46:12.909+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-12 15:57:57.793+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-12 15:58:00.889+0000 INFO  Stopping...
+2017-06-12 15:58:08.025+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-16 15:46:02.702+0000 INFO  Starting...
+2017-06-16 15:46:06.138+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-16 15:46:21.176+0000 INFO  Started.
+2017-06-16 15:46:23.984+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-16 15:49:42.920+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-16 15:49:43.002+0000 INFO  Stopping...
+2017-06-16 15:49:45.311+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-17 19:46:47.692+0000 INFO  Starting...
+2017-06-17 19:47:01.335+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-17 19:47:19.128+0000 INFO  Started.
+2017-06-17 19:47:22.037+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-18 15:31:24.287+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-18 15:31:27.626+0000 INFO  Stopping...
+2017-06-18 15:31:36.206+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-18 17:05:25.161+0000 INFO  Starting...
+2017-06-18 17:05:34.544+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-18 17:06:04.357+0000 INFO  Started.
+2017-06-18 17:06:09.166+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-19 02:02:33.133+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-19 02:02:47.280+0000 INFO  Stopping...
+2017-06-19 02:02:56.691+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-19 12:34:33.553+0000 INFO  Starting...
+2017-06-19 12:34:42.493+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-19 12:35:32.307+0000 INFO  Started.
+2017-06-19 12:35:37.578+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-19 19:04:22.662+0000 ERROR Client triggered an unexpected error [UnknownError]: Cannot write to buffer when closed. See debug.log for more details, reference edcd4014-587d-43c8-9ccf-10d54cf58221.
+2017-06-20 06:25:26.626+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-20 06:25:39.298+0000 INFO  Stopping...
+2017-06-20 06:25:47.291+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-20 08:14:03.296+0000 INFO  Starting...
+2017-06-20 08:14:07.586+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-20 08:14:22.185+0000 INFO  Started.
+2017-06-20 08:14:25.203+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-20 08:28:42.429+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-20 08:28:42.476+0000 INFO  Stopping...
+2017-06-20 08:28:45.730+0000 INFO  Stopped.
+nohup: ignoring input
+2017-06-22 03:54:56.652+0000 INFO  Starting...
+2017-06-22 03:55:04.568+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-22 03:55:55.498+0000 INFO  Started.
+2017-06-22 03:56:02.253+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-06-25 10:04:42.158+0000 INFO  Starting...
+2017-06-25 10:04:45.311+0000 INFO  Bolt enabled on localhost:7687.
+2017-06-25 10:05:01.216+0000 INFO  Started.
+2017-06-25 10:05:05.729+0000 INFO  Remote interface available at http://localhost:7474/
+2017-06-25 13:43:58.428+0000 INFO  Neo4j Server shutdown initiated by request
+2017-06-25 13:44:02.017+0000 INFO  Stopping...
+2017-06-25 13:44:16.456+0000 INFO  Stopped.
+nohup: ignoring input
+2017-07-01 13:00:53.278+0000 INFO  Starting...
+2017-07-01 13:00:57.360+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-01 13:01:23.262+0000 INFO  Started.
+2017-07-01 13:01:28.027+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-07-05 11:38:28.505+0000 INFO  Starting...
+2017-07-05 11:38:37.895+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-05 11:39:41.293+0000 INFO  Started.
+2017-07-05 11:39:45.598+0000 INFO  Remote interface available at http://localhost:7474/
+2017-07-05 12:53:35.580+0000 INFO  Neo4j Server shutdown initiated by request
+2017-07-05 12:53:40.563+0000 INFO  Stopping...
+2017-07-05 12:53:51.030+0000 INFO  Stopped.
+nohup: ignoring input
+2017-07-10 17:18:18.813+0000 INFO  Starting...
+2017-07-10 17:18:22.600+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-10 17:18:35.508+0000 INFO  Started.
+2017-07-10 17:18:39.774+0000 INFO  Remote interface available at http://localhost:7474/
+2017-07-10 17:22:25.381+0000 INFO  Neo4j Server shutdown initiated by request
+2017-07-10 17:22:25.427+0000 INFO  Stopping...
+2017-07-10 17:22:27.712+0000 INFO  Stopped.
+nohup: ignoring input
+2017-07-12 22:05:26.460+0000 INFO  Starting...
+2017-07-12 22:05:30.303+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-12 22:06:05.090+0000 INFO  Started.
+2017-07-12 22:06:08.801+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-07-14 20:21:58.857+0000 INFO  Starting...
+2017-07-14 20:22:03.141+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-14 20:22:44.736+0000 INFO  Started.
+2017-07-14 20:22:51.992+0000 INFO  Remote interface available at http://localhost:7474/
+2017-07-14 20:49:50.272+0000 INFO  Neo4j Server shutdown initiated by request
+2017-07-14 20:49:50.635+0000 INFO  Stopping...
+2017-07-14 20:49:53.341+0000 INFO  Stopped.
+nohup: ignoring input
+2017-07-15 22:01:55.832+0000 INFO  Starting...
+2017-07-15 22:01:59.519+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-15 22:02:11.478+0000 INFO  Started.
+2017-07-15 22:02:15.207+0000 INFO  Remote interface available at http://localhost:7474/
+2017-07-15 22:03:51.217+0000 INFO  Neo4j Server shutdown initiated by request
+2017-07-15 22:03:51.285+0000 INFO  Stopping...
+2017-07-15 22:03:53.462+0000 INFO  Stopped.
+nohup: ignoring input
+2017-07-21 01:49:37.541+0000 INFO  Starting...
+2017-07-21 01:49:45.411+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-21 01:50:29.576+0000 INFO  Started.
+2017-07-21 01:50:38.683+0000 INFO  Remote interface available at http://localhost:7474/
+2017-07-21 02:26:35.272+0000 INFO  Neo4j Server shutdown initiated by request
+2017-07-21 02:26:35.693+0000 INFO  Stopping...
+2017-07-21 02:26:38.515+0000 INFO  Stopped.
+nohup: ignoring input
+2017-07-27 14:20:01.441+0000 INFO  Starting...
+2017-07-27 14:20:04.728+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-27 14:20:28.682+0000 INFO  Started.
+2017-07-27 14:20:38.462+0000 INFO  Remote interface available at http://localhost:7474/
+2017-07-27 14:24:45.989+0000 INFO  Neo4j Server shutdown initiated by request
+2017-07-27 14:24:46.242+0000 INFO  Stopping...
+2017-07-27 14:24:49.940+0000 INFO  Stopped.
+nohup: ignoring input
+2017-07-28 13:08:15.286+0000 INFO  Starting...
+2017-07-28 13:08:18.777+0000 INFO  Bolt enabled on localhost:7687.
+2017-07-28 13:08:39.827+0000 INFO  Started.
+2017-07-28 13:08:46.866+0000 INFO  Remote interface available at http://localhost:7474/
+2017-07-28 13:15:46.755+0000 INFO  Neo4j Server shutdown initiated by request
+2017-07-28 13:15:47.035+0000 INFO  Stopping...
+2017-07-28 13:15:51.928+0000 INFO  Stopped.
+nohup: ignoring input
+2017-08-30 04:03:46.865+0000 INFO  Starting...
+2017-08-30 04:03:49.974+0000 INFO  Bolt enabled on localhost:7687.
+2017-08-30 04:04:23.133+0000 INFO  Started.
+2017-08-30 04:04:25.809+0000 WARN  Failed startup of context o.e.j.w.WebAppContext@5d65bf49{/browser,jar:file:/media/rubens/70AE5EF4AE5EB278/neo4j-community-3.1.2/lib/neo4j-browser-2.0.0-M10.jar!/browser,null} Temp dir /tmp/jetty-localhost-7474-browser-_browser-any-2361490203597365296.dir not useable: writeable=false, dir=false
+java.lang.IllegalStateException: Temp dir /tmp/jetty-localhost-7474-browser-_browser-any-2361490203597365296.dir not useable: writeable=false, dir=false
+	at org.eclipse.jetty.webapp.WebInfConfiguration.configureTempDirectory(WebInfConfiguration.java:384)
+	at org.eclipse.jetty.webapp.WebInfConfiguration.makeTempDirectory(WebInfConfiguration.java:356)
+	at org.eclipse.jetty.webapp.WebInfConfiguration.resolveTempDirectory(WebInfConfiguration.java:304)
+	at org.eclipse.jetty.webapp.WebInfConfiguration.preConfigure(WebInfConfiguration.java:69)
+	at org.eclipse.jetty.webapp.WebAppContext.preConfigure(WebAppContext.java:468)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:504)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.neo4j.server.web.Jetty9WebServer.startJetty(Jetty9WebServer.java:363)
+	at org.neo4j.server.web.Jetty9WebServer.start(Jetty9WebServer.java:178)
+	at org.neo4j.server.AbstractNeoServer.startWebServer(AbstractNeoServer.java:326)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:218)
+	at org.neo4j.server.ServerBootstrapper.start(ServerBootstrapper.java:91)
+	at org.neo4j.server.ServerBootstrapper.start(ServerBootstrapper.java:68)
+	at org.neo4j.server.CommunityEntryPoint.main(CommunityEntryPoint.java:28)
+2017-08-30 04:04:26.272+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-09-11 14:07:09.151+0000 INFO  Starting...
+2017-09-11 14:07:14.137+0000 INFO  Bolt enabled on localhost:7687.
+2017-09-11 14:07:32.048+0000 INFO  Started.
+2017-09-11 14:07:37.648+0000 INFO  Remote interface available at http://localhost:7474/
+2017-09-11 14:11:20.641+0000 INFO  Neo4j Server shutdown initiated by request
+2017-09-11 14:11:20.727+0000 INFO  Stopping...
+2017-09-11 14:11:23.275+0000 INFO  Stopped.
+nohup: ignoring input
+2017-09-12 08:53:25.710+0000 INFO  Starting...
+2017-09-12 08:53:29.349+0000 INFO  Bolt enabled on localhost:7687.
+2017-09-12 08:53:41.356+0000 INFO  Started.
+2017-09-12 08:53:44.899+0000 INFO  Remote interface available at http://localhost:7474/
+2017-09-12 08:57:42.440+0000 INFO  Neo4j Server shutdown initiated by request
+2017-09-12 08:57:42.521+0000 INFO  Stopping...
+2017-09-12 08:57:44.755+0000 INFO  Stopped.
+nohup: ignoring input
+2017-09-28 15:23:41.639+0000 INFO  Starting...
+2017-09-28 15:23:45.186+0000 INFO  Bolt enabled on localhost:7687.
+2017-09-28 15:23:58.155+0000 INFO  Started.
+2017-09-28 15:24:02.527+0000 INFO  Remote interface available at http://localhost:7474/
+2017-09-28 15:28:53.386+0000 INFO  Neo4j Server shutdown initiated by request
+2017-09-28 15:28:53.498+0000 INFO  Stopping...
+2017-09-28 15:28:55.870+0000 INFO  Stopped.
+nohup: ignoring input
+2017-09-28 16:31:37.501+0000 INFO  Starting...
+2017-09-28 16:31:42.499+0000 INFO  Bolt enabled on localhost:7687.
+2017-09-28 16:32:01.672+0000 INFO  Started.
+2017-09-28 16:32:06.837+0000 INFO  Remote interface available at http://localhost:7474/
+2017-09-28 16:46:03.775+0000 INFO  Neo4j Server shutdown initiated by request
+2017-09-28 16:46:04.083+0000 INFO  Stopping...
+2017-09-28 16:46:06.000+0000 INFO  Stopped.
