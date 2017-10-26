@@ -8,7 +8,7 @@
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <!-- Latest compiled JavaScript -->
       <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
@@ -19,34 +19,34 @@
       <link rel = "stylesheet" href = "bootstrap-social.css">     
       <link href="timeline.css" rel="stylesheet">
       <script src="//code.jquery.com/jquery.min.js"></script>
-<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
-<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
-   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
-   crossorigin=""/>
- <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-   crossorigin=""></script>
-
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+      <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+      <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+      integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+      crossorigin=""/>
+      <!-- Make sure you put this AFTER Leaflet's CSS -->
+      <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+      integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+      crossorigin=""></script>
+      <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
       <!--<script src="timeline.js"></script>-->
-	{% load static %}
-	<script src="{% static "tpe/vis.min.js" %}"></script>
-  	<link href="{% static "tpe/vis.min.css" %}" rel="stylesheet" type="text/css" />   
-
-      
+      {% load static %}
+      <link href="{% static "tpe/vis.min.css" %}" rel="stylesheet" type="text/css" />     
+      <script src="{% static "tpe/vis.min.js" %}"></script>  
       <style>
-         body { margin:0; padding:0;} 
-
-    	 body, html {
+         body{ 
+	      margin:0; padding:0;
+	 } 
+    	 body,html{
       		font-family: sans-serif;
 	}     
-         #map4 {  width:100%; height:500px }
-	#leaflet { height: 500px; width:50%;} 
-#map_carto{
-	width:50%;
-}       
+        #map4 {  width:100%; height:500px }
+	#leaflet{ 
+		  height: 500px; width:50%;
+	} 
+        #map_carto{
+	           width:50%;
+        }       
          .map-overlay {
          font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
          position: relative;
@@ -405,17 +405,17 @@
 		</script>
 	</p>
 <p>
-	<div id="leaflet"></div>
-	<script>
+	<!--<div id="leaflet"></div>-->
+	<!--<script>
 		var map = L.map('leaflet').setView([51.505, -0.09], 13);
 		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 		}).addTo(map);
 
-		L.marker([51.5, -0.09]).addTo(map)
+	<!--	L.marker([51.5, -0.09]).addTo(map)
 		    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
 		    .openPopup();
-	</script>
+	</script>-->
 <div id="map_carto"></div>
 <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
 <script>
@@ -431,7 +431,6 @@
 	}
 </script>
 </p>
-<br />
 <hr />
 	<object type="text/html" data="http://localhost:7474/browser/" style="width:100%; height:500px"></object>
 <hr />
@@ -439,10 +438,10 @@
 <hr />           
 
 <div style="text-align:center">
-    <div id="container_highcharts" style="width: 23%; height: 400px; margin: 0 auto;display:inline-block">bsjdalkfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
-    <div id="container_highcharts2" style="width: 23%; height: 400px; margin: 0 auto;display:inline-block">bsjdalkfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
-    <div id="container_highcharts3" style="width: 23%; height: 400px; margin: 0 auto;display:inline-block">bsjdalkfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
-    <div id="container_highcharts4" style="width: 23%; height: 400px; margin: 0 auto;display:inline-block">bsjdalkfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
+    <div id="container_highcharts" style="width: 23%; height: 400px; margin: 0 auto;display:inline-block"></div>
+    <div id="container_highcharts2" style="width: 23%; height: 400px; margin: 0 auto;display:inline-block"></div>
+    <div id="container_highcharts3" style="width: 23%; height: 400px; margin: 0 auto;display:inline-block"></div>
+    <div id="container_highcharts4" style="width: 23%; height: 400px; margin: 0 auto;display:inline-block"></div>
 </div>
 
 <hr />  
@@ -788,24 +787,19 @@ $(document).ready(function() {
 });
 </script>
    
-        <br /><br />
-        
+        <br />      
         
         <object type="text/html" data="https://hijiangtao.github.io/ss-vis-component/" style="width:100%; height:1000px"></object>
-        <object type="text/html" data="http://localhost:7474/browser/" style="width:100%; height:500px"></object>
-<!--        <object data="http://mbostock.github.io/d3/talk/20111116/airports.html" width="1300" height="800"></object>   -->
+        <!--<object type="text/html" data="http://localhost:7474/browser/" style="width:100%; height:500px"></object>-->
+        <!--<object data="http://mbostock.github.io/d3/talk/20111116/airports.html" width="1300" height="800"></object>-->
          
-  
-      
-      <footer style="margin-top:10px;width:100%" class="bg-primary" >
+      <footer style="width:100%" class="bg-primary" >
             <p style="font-weight:bold;font-style:italic;width:100%">
                 &copy; 2017<br />
                 Auteur : Pierre Rubens Milorme<br />
                 prubensmilorme@gmail.com<br />
                 senburbens@gmail.com
             </p>
-      <footer>      
-
-        
+      <footer>              
    </body>
 </html>

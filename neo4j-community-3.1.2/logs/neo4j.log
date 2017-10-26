@@ -269,3 +269,29 @@ nohup: ignoring input
 2017-09-28 16:46:03.775+0000 INFO  Neo4j Server shutdown initiated by request
 2017-09-28 16:46:04.083+0000 INFO  Stopping...
 2017-09-28 16:46:06.000+0000 INFO  Stopped.
+nohup: ignoring input
+2017-10-04 03:04:32.517+0000 INFO  Starting...
+2017-10-04 03:04:35.624+0000 INFO  Bolt enabled on localhost:7687.
+2017-10-04 03:04:47.756+0000 INFO  Started.
+2017-10-04 03:04:50.975+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-10-04 07:35:59.036+0000 INFO  Starting...
+2017-10-04 07:36:01.596+0000 INFO  Bolt enabled on localhost:7687.
+2017-10-04 07:36:13.927+0000 INFO  Started.
+2017-10-04 07:36:17.579+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-10-05 23:05:19.172+0000 INFO  Starting...
+2017-10-05 23:05:22.938+0000 INFO  Bolt enabled on localhost:7687.
+2017-10-05 23:05:38.347+0000 INFO  Started.
+2017-10-05 23:05:43.148+0000 INFO  Remote interface available at http://localhost:7474/
+2017-10-05 23:12:22.938+0000 INFO  Neo4j Server shutdown initiated by request
+2017-10-05 23:12:23.073+0000 INFO  Stopping...
+2017-10-05 23:12:25.020+0000 INFO  Stopped.
+nohup: ignoring input
+2017-10-10 19:33:24.754+0000 INFO  Starting...
+2017-10-10 19:33:34.628+0000 INFO  Bolt enabled on localhost:7687.
+2017-10-10 19:34:34.690+0000 INFO  Started.
+2017-10-10 19:34:42.226+0000 INFO  Remote interface available at http://localhost:7474/
+2017-10-10 19:40:19.426+0000 INFO  Neo4j Server shutdown initiated by request
+2017-10-10 19:40:19.736+0000 INFO  Stopping...
+2017-10-10 19:40:22.363+0000 INFO  Stopped.
