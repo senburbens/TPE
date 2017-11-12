@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
@@ -6,6 +9,8 @@ from datetime import datetime
 import json
 from textblob import TextBlob
 import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 import re
 
 reload(sys)
@@ -40,7 +45,7 @@ class listener(StreamListener) :
             #print(dir(datetime))
 	    print('USER ID : ',str(decoded['user']['id']))
 	    print('USERNAME: ',str(decoded['user']['screen_name']))
-	    print('ORIGINAL TEXT : ',str(decoded['text'].encode('UTF-8','ignore')))
+	    print('ORIGINAL TEXT : ',str(decoded['text'].encode("utf-8")))
 	    text_to_translate = TextBlob(self.clean_tweet(str(decoded['text']))) 
 	    #print dir(translated_text)            
 	    if text_to_translate.detect_language() == 'en' :
@@ -51,9 +56,10 @@ class listener(StreamListener) :
 		translated_text = text_to_translate.translate(to='en')
 	        print('TRANSLATED TEXT : ',str(translated_text))
 	        print('CLEANED TWEET : ', self.clean_tweet(str(translated_text)))
-                print('SENTIMENT : ', self.get_tweet_sentiment(self.clean_tweet(str(translated_text))))
+                #print('SENTIMENT : ', self.get_tweet_sentiment(self.clean_tweet(str(translated_text))))
+	        print('SENTIMENT : ', self.get_tweet_sentiment(str(translated_text)))
 
-	    print('TWEET LANGUAGE : ',str(decoded['lang'].encode('UTF-8','ignore')))
+	    print('TWEET LANGUAGE : ',str(decoded['lang'].encode("utf-8")))
 	    coordinates = decoded['geo'] 
 	    if coordinates != None :
             	#print('TWEET COORDINATES : ',str(decoded['coordinates']['coordinates']))
