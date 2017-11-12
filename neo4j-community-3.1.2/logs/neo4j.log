@@ -313,3 +313,8 @@ nohup: ignoring input
 2017-11-12 11:57:16.738+0000 INFO  Neo4j Server shutdown initiated by request
 2017-11-12 11:57:19.104+0000 INFO  Stopping...
 2017-11-12 11:57:25.602+0000 INFO  Stopped.
+nohup: ignoring input
+2017-11-12 12:11:51.584+0000 INFO  Starting...
+2017-11-12 12:11:55.657+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-12 12:12:09.082+0000 INFO  Started.
+2017-11-12 12:12:13.620+0000 INFO  Remote interface available at http://localhost:7474/
