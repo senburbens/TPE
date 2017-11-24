@@ -318,3 +318,76 @@ nohup: ignoring input
 2017-11-12 12:11:55.657+0000 INFO  Bolt enabled on localhost:7687.
 2017-11-12 12:12:09.082+0000 INFO  Started.
 2017-11-12 12:12:13.620+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-11-16 19:47:00.822+0000 INFO  Starting...
+2017-11-16 19:47:08.994+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-16 19:47:31.457+0000 INFO  Started.
+2017-11-16 19:47:38.462+0000 INFO  Remote interface available at http://localhost:7474/
+2017-11-16 19:59:31.867+0000 INFO  Neo4j Server shutdown initiated by request
+2017-11-16 19:59:32.076+0000 INFO  Stopping...
+2017-11-16 19:59:36.955+0000 INFO  Stopped.
+nohup: ignoring input
+2017-11-17 09:48:10.165+0000 INFO  Starting...
+2017-11-17 09:48:15.117+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-17 09:48:31.756+0000 INFO  Started.
+2017-11-17 09:48:36.924+0000 INFO  Remote interface available at http://localhost:7474/
+2017-11-17 10:56:20.257+0000 INFO  Neo4j Server shutdown initiated by request
+2017-11-17 10:56:20.809+0000 INFO  Stopping...
+2017-11-17 10:56:24.479+0000 INFO  Stopped.
+nohup: ignoring input
+2017-11-18 16:40:56.479+0000 INFO  Starting...
+2017-11-18 16:41:01.733+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-18 16:42:57.741+0000 INFO  Started.
+2017-11-18 16:43:25.970+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-11-23 11:47:31.049+0000 INFO  Starting...
+2017-11-23 11:47:34.519+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-23 11:47:57.853+0000 INFO  Started.
+2017-11-23 11:48:04.935+0000 INFO  Remote interface available at http://localhost:7474/
+2017-11-23 12:23:02.459+0000 INFO  Neo4j Server shutdown initiated by request
+2017-11-23 12:23:03.848+0000 INFO  Stopping...
+2017-11-23 12:23:10.253+0000 INFO  Stopped.
+nohup: ignoring input
+2017-11-23 14:41:30.168+0000 INFO  Starting...
+2017-11-23 14:41:33.553+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-23 14:41:46.454+0000 INFO  Started.
+2017-11-23 14:41:50.093+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-11-23 17:20:23.546+0000 INFO  Starting...
+2017-11-23 17:21:42.565+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-23 17:29:08.419+0000 INFO  Started.
+2017-11-23 17:30:13.186+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-11-24 01:46:08.801+0000 INFO  Starting...
+2017-11-24 01:46:55.900+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-24 01:48:20.124+0000 INFO  Started.
+2017-11-24 01:48:27.958+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-11-24 03:20:40.748+0000 INFO  Starting...
+2017-11-24 03:21:24.224+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-24 03:22:27.820+0000 INFO  Started.
+2017-11-24 03:22:36.349+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-11-24 05:50:23.009+0000 INFO  Starting...
+2017-11-24 05:50:45.747+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-24 05:53:12.668+0000 INFO  Started.
+2017-11-24 05:53:34.233+0000 INFO  Remote interface available at http://localhost:7474/
+2017-11-24 06:34:46.572+0000 INFO  Neo4j Server shutdown initiated by request
+2017-11-24 06:34:50.226+0000 INFO  Stopping...
+2017-11-24 06:34:59.427+0000 INFO  Stopped.
+nohup: ignoring input
+2017-11-24 08:33:58.956+0000 INFO  Starting...
+2017-11-24 08:34:02.613+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-24 08:34:16.587+0000 INFO  Started.
+2017-11-24 08:34:20.444+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-11-24 09:17:54.385+0000 INFO  Starting...
+2017-11-24 09:18:28.868+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-24 09:19:54.035+0000 INFO  Started.
+2017-11-24 09:20:01.488+0000 INFO  Remote interface available at http://localhost:7474/
+2017-11-24 09:42:19.860+0000 ERROR Client triggered an unexpected error [UnknownError]: null. See debug.log for more details, reference 63baf48f-eb5c-4816-a47d-7fe17a2b9669.
+nohup: ignoring input
+2017-11-24 13:53:55.909+0000 INFO  Starting...
+2017-11-24 13:53:59.335+0000 INFO  Bolt enabled on localhost:7687.
+2017-11-24 13:54:56.402+0000 INFO  Started.
+2017-11-24 13:55:03.079+0000 INFO  Remote interface available at http://localhost:7474/

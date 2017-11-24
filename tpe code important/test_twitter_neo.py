@@ -83,6 +83,10 @@ def get_tweet_sentiment(text):
 ###############################################################################################################################################
 #############################                 MATCH p = (t:Tweet)-->(b:Sentiment) RETURN nodes(p), rels(p)
 #############################                 MATCH p = (t:Tweet)-->(s:Sentiment)  RETURN nodes(p)
+#############################                 graph.run("MATCH p = (t:Tweet)-->(s:Sentiment)  RETURN t.annee, s.polarite").dump()
+#############################                 graph.run("MATCH p = (t:Tweet)-->(s:Sentiment)  RETURN t.annee, s.polarite").data()[0]['t.annee'].encode('utf8')
+
+
 ###############################################################################################################################################
 class listener(StreamListener) :
 
@@ -210,6 +214,6 @@ auth.set_access_token(atoken, asecret)
 twitterStream=Stream(auth, listener())
 
 #twitterStream.filter(locations = [105.797482,20.995099,105.876446,21.050380]) #Hanoi
-twitterStream.filter(locations = [2.224199,48.815573,2.469921,48.902145]) #Paris
+#twitterStream.filter(locations = [2.224199,48.815573,2.469921,48.902145]) #Paris
 #twitterStream.filter(locations = [-72.361793,18.498006,-72.207127,18.660069]) #Port-au-Prince
-#twitterStream.filter(locations = [-74.259090,40.477399,-73.700272,40.917577])# New York City
+twitterStream.filter(locations = [-74.259090,40.477399,-73.700272,40.917577])# New York City

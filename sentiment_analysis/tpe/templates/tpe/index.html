@@ -98,13 +98,26 @@
         }        
 .marker {
 {% load static %}
-  background-image: url('{% static "tpe/mapbox-icon.png" %}');
+  /*background-image: url('{% static "tpe/mapbox-icon.png" %}');*/
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   cursor: pointer;
 }
+
+.positif{
+	background-color:rgba(0,255,0,1);
+}
+
+.negatif{
+	background-color:rgba(255,100,0,1);
+}
+
+.neutre{
+	background-color:rgba(0,0,255,1);
+}
+
 .mapboxgl-popup {
   max-width: 200px;
 }
@@ -117,6 +130,8 @@
    </head>
    
    <body>
+
+
 
       <div id="container" >
          <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -330,9 +345,9 @@
                         <div class="radio">
                         <label><input type="radio" name="optradio"><span style="font-weight:bold" class="text-info">Heatmap</span></label>
                         </div>
-                        <div class="radio disabled">
+                        <!--<div class="radio disabled">
                         <label><input type="radio" name="optradio"><span style="font-weight:bold" class="text-info">Desactiver Layer</span></label>
-                        </div>
+                        </div>-->
                   </form>         
                 <hr />
                 <p style="margin-top:10px;text-decoration:underline;text-align:center;font-family:curvy serif;text-transform:uppercase;font-weight: bolder" class="text-muted">HASHTAGS et RETWEETS</p>
@@ -353,8 +368,17 @@
             </div>
          </form>
          <!--<div id="map" class="col-sm-9" style="width: 1000px; height: 650px; margin:auto"></div>-->
-         <div id='map' class="col-sm-12" style="width: 1000px; height: 650px; border: 1px solid lightgray;border-radius:5px">
-         
+	<p> 
+		<form class="form-inline">
+		    <div class="form-group">
+		       <input type="date" class="form-control" style="display:inline">
+		 </div>
+	         <div class="form-group">
+		       <input type="date" class="form-control" style="display:inline">
+		 </div>
+		 </form>
+		 <div id='map' class="col-sm-12" style="width: 1000px; height: 650px; border: 1px solid lightgray;border-radius:5px">
+         </p>
          
         <div id='menu' style="width:1000px; background-color:black;color:white">
             <input id='basic' type='radio' name='rtoggle' value='basic' checked='checked'>
@@ -370,7 +394,7 @@
             <input id='satellite' type='radio' name='rtoggle' value='satellite'>
             <label for='satellite'>satellite</label>
         </div>
-
+       
         <script>
             mapboxgl.accessToken = 'pk.eyJ1Ijoic2VuYnVyYmVucyIsImEiOiJjajM1azh4cHAwMWExMzJvenpoeG9ucGo4In0.oOu3kXrL-7WqAQSpFVndJw';
             var map = new mapboxgl.Map({
@@ -392,13 +416,13 @@
                 inputs[i].onclick = switchLayer;
             }
 
-	    var geojson = {
+	    /*var geojson = {
 		  type: 'FeatureCollection',
 		  features: [{
 		    type: 'Feature',
 		    geometry: {
 		      type: 'Point',
-		      coordinates: [-77.032, 38.913]
+		      coordinates: [2.356972,48.870619]              
 		    },
 		    properties: {
 		      title: 'Mapbox',
@@ -409,13 +433,45 @@
 		    type: 'Feature',
 		    geometry: {
 		      type: 'Point',
-		      coordinates: [-122.414, 37.776]
+		      coordinates: [2.388859 , 48.857791]      
 		    },
 		    properties: {
 		      title: 'Mapbox',
 		      description: 'San Francisco, California'
 		    }
 		  }]
+		};*/
+
+		var geojson = {
+		  type: 'FeatureCollection',
+		  features: [
+		  {% for tweet in liste %}
+			{% if tweet.latitude %}
+		   {
+		    type: 'Feature',
+		    geometry: {
+		      type: 'Point',
+		      coordinates: [{{ tweet.longitude }},{{ tweet.latitude }}]              
+		    },
+		    properties: {
+		      title: '{{ tweet.polarite }}',
+		      description: 'TEST sdfgvsdkafg,gfsda,jbsmdgf,sdfgbcwagfcyGFCGFCJSAGFAJSGYGFCAJSDGFBSVADFG,SAGFC,DGAJ,VGFBSA,JGSD,FGBVGVSDA,DSFAJSFGBSDGF<HBSJDAGFVS<XGHFVDFGSJFGVSDAJFGVBSDJAFGVSAJDMFGVSADJFDSJ	JJJJjfsdgfgkegtrhryhjtylkjtoiyhjrtgihjnrthnirbjhnthroijtrnhoijrnthoihyhbtohrjthbrtohjryhojrthjrbtgrtnhngihvegewfcvftwyfxdcqydfxqdcqwdfwyxdcwfucgwefucwfgcwurefywrgfuwewqeiwquetqriqertqyrqertywqiewqtrwyq',
+		    }
+		  }
+			   ,
+		{% endif %}
+		{% endfor %}
+		  /*{
+		    type: 'Feature',
+		    geometry: {
+		      type: 'Point',
+		      coordinates: [2.388859 , 48.857791]      
+		    },
+		    properties: {
+		      title: 'Mapbox',
+		      description: 'San Francisco, California'
+		    }
+		  }*/]
 		};
 
 // add markers to map
@@ -423,16 +479,26 @@ geojson.features.forEach(function(marker) {
 
   // create a HTML element for each feature
   var el = document.createElement('div');
-  el.className = 'marker';
+  if (marker.properties.title == 'positif'){
+	el.className = 'marker positif';
+  }else if (marker.properties.title == 'negatif'){
+	el.className = 'marker negatif';
+  }else{
+  	el.className = 'marker neutre';
+  }
+  
+
 
   // make a marker for each feature and add to the map
   new mapboxgl.Marker(el)
   .setLngLat(marker.geometry.coordinates)
-.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+.setPopup(new mapboxgl.Popup({ offset: 5 }) // add popups
   .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
   .addTo(map);
 });
         </script>
+
+
 
         
         </div></div><br/>
@@ -847,10 +913,23 @@ $(document).ready(function() {
    
         <br />      
         
-        <object type="text/html" data="https://hijiangtao.github.io/ss-vis-component/" style="width:100%; height:1000px"></object>
+        <!--<object type="text/html" data="https://hijiangtao.github.io/ss-vis-component/" style="width:100%; height:1000px"></object>-->
         <!--<object type="text/html" data="http://localhost:7474/browser/" style="width:100%; height:500px"></object>-->
         <!--<object data="http://mbostock.github.io/d3/talk/20111116/airports.html" width="1300" height="800"></object>-->
-         
+	<table class="table table-hover">
+		       <tr><th>Latitude</th>
+			<th>Longitude</th>
+			<th>Date</th>
+                        <th>Text</th>
+			<th>Polarite</th></tr>
+		{% for tweet in liste %}
+			<tr><td>{{ tweet.latitude }}</td>
+			<td>{{ tweet.longitude }}</td>
+			<td>{{ tweet.date }}</td>
+			<td>{{ tweet.text }}</td>
+			<td>{{ tweet.polarite }}</td></tr>
+		{% endfor %}
+        </table>
       <footer style="width:100%" class="bg-primary" >
             <p style="font-weight:bold;font-style:italic;width:100%">
                 &copy; 2017<br />
