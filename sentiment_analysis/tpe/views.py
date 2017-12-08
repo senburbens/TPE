@@ -30,7 +30,8 @@ def index(request):
     liste = list()
     contenu = graph.run("MATCH p = (t:Tweet)-->(s:Sentiment)  RETURN t.text, t.latitude, t.longitude, t.date, s.polarite").data()
     for el in contenu :
-	liste.append({'text':el['t.text'].replace("'", "\'").encode('utf8'),'latitude':el['t.latitude'].encode('utf8'),'longitude':el['t.longitude'].encode('utf8'), 'date':el['t.date'].encode('utf8'), 'polarite':el['s.polarite'].encode('utf8')})
+	if el["t.latitude"] and el["t.longitude"] : 
+		liste.append({'text':el['t.text'].replace("'", "\'").encode('utf8'),'latitude':el['t.latitude'].encode('utf8'),'longitude':el['t.longitude'].encode('utf8'), 'date':el['t.date'].encode('utf8'), 'polarite':el['s.polarite'].encode('utf8')})
     #longueurListe = len(liste)
     return render(request, "tpe/index.html", locals())
     

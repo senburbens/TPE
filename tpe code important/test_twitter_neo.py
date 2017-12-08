@@ -214,6 +214,6 @@ auth.set_access_token(atoken, asecret)
 twitterStream=Stream(auth, listener())
 
 #twitterStream.filter(locations = [105.797482,20.995099,105.876446,21.050380]) #Hanoi
-#twitterStream.filter(locations = [2.224199,48.815573,2.469921,48.902145]) #Paris
+twitterStream.filter(locations = [2.224199,48.815573,2.469921,48.902145]) #Paris
 #twitterStream.filter(locations = [-72.361793,18.498006,-72.207127,18.660069]) #Port-au-Prince
-twitterStream.filter(locations = [-74.259090,40.477399,-73.700272,40.917577])# New York City
+#twitterStream.filter(locations = [-74.259090,40.477399,-73.700272,40.917577])# New York City
